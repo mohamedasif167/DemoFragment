@@ -19,6 +19,10 @@ public class MainActivity extends AppCompatActivity {
         FragmentFirst f1 = new FragmentFirst();
         ft.replace(R.id.frame1,f1);
 
+        FragmentSecond f2 = new FragmentSecond();
+        ft.replace(R.id.frame2,f2);
+
+
         ft.commit();
 
     }
